@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="32" tileheight="32" nextobjectid="23">
+ <tileset firstgid="1" name="tiles2" tilewidth="32" tileheight="32" tilecount="48">
+  <image source="tiles.png" width="256" height="192"/>
+ </tileset>
+ <tileset firstgid="49" name="trees" tilewidth="32" tileheight="32" tilecount="169">
+  <image source="trees.png" width="416" height="416"/>
+ </tileset>
+ <tileset firstgid="218" name="terrain_atlas" tilewidth="32" tileheight="32" tilecount="1024">
+  <image source="terrain_atlas.png" width="1024" height="1024"/>
+ </tileset>
+ <tileset firstgid="1242" name="base_out_atlas" tilewidth="32" tileheight="32" tilecount="1024">
+  <image source="base_out_atlas.png" width="1024" height="1024"/>
+ </tileset>
+ <tileset firstgid="2266" name="enemy" tilewidth="32" tileheight="32" tilecount="12">
+  <image source="enemy.png" width="96" height="128"/>
+ </tileset>
+ <tileset firstgid="2278" name="player" tilewidth="32" tileheight="32" tilecount="12">
+  <image source="player.png" width="96" height="128"/>
+ </tileset>
+ <tileset firstgid="2290" name="1" tilewidth="32" tileheight="32" tilecount="256">
+  <image source="1.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="2546" name="2" tilewidth="32" tileheight="32" tilecount="256">
+  <image source="2.png" width="512" height="512"/>
+ </tileset>
+ <layer name="canvas" width="20" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzrZ2Rg6B8iWJoNP58c89DxcDYPhv+xUiY/ikfxQGEABTWiSA==
+  </data>
+ </layer>
+ <layer name="background" width="20" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBga4DcrA8MfVlSxX6zYxYkB0mwIDDIDmY9hNxYxfOahY1LNswLKWwOxDVT/X6j7kMWRwV80/5exMzCUA3EFO3azZbGYAQO/oPK/kOSnAc2ZDsQzsJg30ACfX8kB1PIrLd01CSo2BUrHAXE8ECeQafZ8IF4AxAvxqDnNycBwBojPAvE5TjItogIAAKA6Ibo=
+  </data>
+ </layer>
+ <layer name="structures" width="20" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYGBgiGJjYIgG4hg23GxSQBVQfTUQ17DhZpMCfrEyMDBB9cwC0rOBeA6UDxL/w4pQewvIvw3Ed/DYIQWUYwRiGTaE2SAzkMXhdrNB5QmYpwTVh4sNV8sOFWNHNSMcjY9sNgjI4LD/FxsqTQhYEalOGod7qAFw+XWgASnums0JTINAPBeI53GSblcQGn810Iw1QLwWiNcRYd5kAvK7gWbsAeK9QLyPDPcNVgAAJFQh/A==
+  </data>
+ </layer>
+ <layer name="foreground" width="20" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBj+4BIbA8NlIL7CRh3zPgHN+QzEX6hknhA7A4MwEIuwU27WYPUrzF3U8iuyu7KB/BwgzoXKmQOxBRBbkmAesrsqgPxKIK6CyrkAsSsQu5Hp1lYgbgPidig/EEoHk2neSAYAETsWzw==
+  </data>
+ </layer>
+ <layer name="npc" width="20" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2B4g9scA+2CkQGIDWdK4gMAKnoCqg==
+  </data>
+ </layer>
+ <layer name="player" width="20" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjILBDZ5zQGgADCAA8A==
+  </data>
+ </layer>
+ <objectgroup name="gate">
+  <object id="17" name="apartment.tmx" type="2" x="160" y="160" width="32" height="32"/>
+  <object id="18" name="storage_room.tmx" type="3" x="416" y="160" width="32" height="32"/>
+ </objectgroup>
+</map>
